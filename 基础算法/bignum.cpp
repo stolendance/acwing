@@ -24,7 +24,6 @@ void bignum_add(vector<int> & rs,vector<int> &l1,vector<int> &l2)
         if(t) rs.push_back(t%10);
         while(rs.size()>1&&rs.back()==0) rs.pop_back();
     }
-
 }
 int cmp(vector<int> &l1,vector<int> &l2)
 {
